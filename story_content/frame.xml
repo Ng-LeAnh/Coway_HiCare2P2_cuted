@@ -6,6 +6,7 @@
     <layout name="npxnabnsnfns10111000101" font="Arial" controllayout="npxnabnsnfns10111000101" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
     <layout name="npnxnanbnsnfns10111000101" font="Arial" controllayout="npnxnanbnsnfns10111000101" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
     <layout name="pxabnsnfns10111000100" font="Arial" controllayout="pxabnsnfns10111000100" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
+    <layout name="pnxanbnsnfns10111000101" font="Arial" controllayout="pnxanbnsnfns10111000101" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -225,6 +226,31 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
+    <control_layout name="pnxanbnsnfns10111000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
   </control_layouts>
   <colorschemes>
     <colorscheme name="pxabnsnfns10111000101">
@@ -251,7 +277,7 @@
           <color name="htmlpage_bg_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xE5F4FB" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -421,7 +447,7 @@
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xDCF0FA" alpha="100" stop="0" />
+                <color rgb="0xE3E3E3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -449,7 +475,7 @@
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xDCF0FA" alpha="100" stop="0" />
+                <color rgb="0xE3E3E3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -773,7 +799,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xDCF0FA" alpha="100" stop="0" />
+                <color rgb="0xE3E3E3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1006,7 +1032,7 @@
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xDCF0FA" alpha="100" stop="0" />
+                <color rgb="0xE3E3E3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1029,7 +1055,7 @@
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xDCF0FA" alpha="100" stop="0" />
+                <color rgb="0xE3E3E3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1206,7 +1232,7 @@
           <color name="diva">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xDCF0FA" alpha="100" stop="0" />
+                <color rgb="0xE3E3E3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1220,28 +1246,28 @@
           <color name="menu_shade">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xDCF0FA" alpha="100" stop="0" />
+                <color rgb="0xE3E3E3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xE5F4FB" alpha="0" stop="0" />
+                <color rgb="0xE8E8E8" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xE5F4FB" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="slide_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xE5F4FB" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1287,7 +1313,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xDCF0FA" alpha="100" stop="0" />
+                <color rgb="0xE3E3E3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1322,7 +1348,7 @@
           <color name="toggle_track_off">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBFE4F6" alpha="100" stop="0" />
+                <color rgb="0xD2D2D2" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1336,7 +1362,7 @@
           <color name="settings_border_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xDCF0FA" alpha="100" stop="0" />
+                <color rgb="0xE3E3E3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1347,7 +1373,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xDCF0FA" alpha="100" stop="0" />
+                <color rgb="0xE3E3E3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1396,7 +1422,7 @@
           <color name="volume_border_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xDCF0FA" alpha="100" stop="0" />
+                <color rgb="0xE3E3E3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1517,7 +1543,7 @@
       <string id="ctrl_key">Ctrl</string>
       <string id="search_results">Kết quả Tìm kiếm</string>
       <string id="search_in">Tìm kiếm trong:</string>
-      <string id="outline">Mục lục</string>
+      <string id="outline">&gt;&gt; Mục lục</string>
       <string id="transcript">Ghi chú</string>
       <string id="resources">Tài nguyên</string>
       <string id="enable_keyboardshortcuts">Bật phím tắt</string>
@@ -1599,7 +1625,6 @@
                     <slidelink slideid="_player.6R76cO358mJ.6j57GjWPPdh" displaytext="B1 Dự trữ nước và xả nước" expand="false" type="slide" />
                     <slidelink slideid="_player.6R76cO358mJ.5e3edl072ps" displaytext="B2 - Vệ sinh và khử trùng bình chứa nước" expand="false" type="slide" />
                     <slidelink slideid="_player.6R76cO358mJ.66GueCrtzU2" displaytext="B3 Thực hiện vệ sinh và thay thế lõi lọc" expand="false" type="slide" />
-                    <slidelink slideid="_player.6R76cO358mJ.5msOAXjx5TW" displaytext="B5 Đóng máy hoàn thiện" expand="false" type="slide" />
                   </links>
                 </slidelink>
                 <slidelink slideid="_player.6R76cO358mJ.5sTmF7bo58p" displaytext="2C" expand="false" type="slide">
